@@ -1,0 +1,95 @@
+h1 {
+    margin-left: 10%;
+    margin-top: 10%;
+    color: #eaab17;
+    font-family: 'Courier New', Courier, monospace;
+}
+h3{
+  color: #ffffff;
+  
+}
+
+img{
+    text-align: center;
+    margin-left: 0%;
+}
+
+
+p{
+    margin-top:30%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+   color: #ffffff;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.link-rosa{
+    color: #ee07ff;
+}
+.columnas {
+    display: flex; 
+    height: 100%;
+}
+
+.columnaizq, .columnader, .cizq, .cder{
+  flex: 1; 
+  text-align: center;
+  
+}
+.columnaizq{
+    background-color: #fff;
+    background-size: contain;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.columnader{
+    
+    background-image: url(ppp.jpg) ;
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+    min-height: 100%;
+       
+}
+em.aspectos {
+    background: #ee07ff;
+}
+
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f48c3e;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.bannercontacto{
+    display: flex; 
+       color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f48c3e;
+    font-size: smaller;
+    background-size: 0%;
+   
+}
+html, body {
+    height: 100%; 
+    margin: 0;
+    padding: 0;
+
+    }
+ 
+    .columnas {
+      display: flex;
+      flex-direction: row; /* Por defecto, las columnas estarán una al lado de la otra */
+  }
+  
+  /* Para pantallas más pequeñas, se apilan una sobre la otra */
+  @media only screen and (max-width: 768px) {
+      .columnas {
+          flex-direction: column; /* Cambia a apiladas en pantallas más pequeñas */
+      }
+  }
